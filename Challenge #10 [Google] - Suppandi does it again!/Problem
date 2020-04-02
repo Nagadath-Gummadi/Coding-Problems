@@ -1,0 +1,40 @@
+That was quite a travel you had in the past 9 days. You solved a bunch of problems for Suppandi, Chhota Bheem and Perry the Platypus. You rescued Nobita, flew with Noddy, played with Shinchan and crossed the bridge with Dora. You skipped a few spots in the line to by tickets from Oggy and followed Pikachu's secret map.
+
+And now you're back home. You would think that all your problems are over now. But there is one last adventure.
+
+While you were away, Suppandi was busy trying to study. He doesn't understand words too well. In order to study, he thought he could make the sentences into one big word and learn the entire word in one go!
+
+
+Now that you are back, you need to decipher your notebook. After all, you need to study to prepare for the upcoming Edyst April Daily Challenges
+
+This is what Suppandi has done:
+
+He concatenated all the words into one big word, by removing all the spaces
+He is not perfect at copying, so before concatenation he may have jumbled the original word. He jumbles as follows: he rotates a word up to 3 times to the left or up to 3 times to the right
+Luckily, you have always made sure to follow the dictionary in whatever you write. You have a dictionary of all the words you have written. Given this dictionary, you need to figure out how many possible sentences could have been made from the very long word that Suppandi has made.
+
+Example:
+
+Long Word: heretawsaemprobl
+Dictionary: ["here", "there", "a", "was", "problem", "at", "saw"]
+Possible sentences:
+
+there saw a problem
+there a saw problem
+here at saw problem
+Thus, 3 sentences could have been our original sentence.
+
+Given a long word, followed by a dictionary, print the number of possible sentences.
+
+Input Format
+First line contains T, the number of test cases. For each test case, we have:
+First line has the long word
+The second line has N, followed by N words of the dictionary
+Output Format
+Print the number of possible sentences that could lead to the long word
+Example Input
+2
+heretawsaemprobl
+7 here there a was problem at saw
+ilooknowoolc
+6 i cool now know look loo
