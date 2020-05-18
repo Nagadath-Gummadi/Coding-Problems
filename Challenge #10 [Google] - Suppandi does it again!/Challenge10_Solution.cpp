@@ -3,9 +3,7 @@
 
 #define int int64_t
 
-using namespace std;
-
- 
+using namespace std; 
 
 string rotateleft(string s) {
 
