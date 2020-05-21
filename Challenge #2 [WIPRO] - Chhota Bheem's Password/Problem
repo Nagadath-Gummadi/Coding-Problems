@@ -1,6 +1,5 @@
 It seems many of you helped our Suppandi really well in the previous challenge. He was very impressed, and has referred you to Chhota Bheem. Unlike Suppandi, Chhota Bheem is very smart. He doesn't need your help, instead he wants to test you.
 
-
 Chhota Bheem's notebook is encrypted with a secret password. He never remembers the password, because he uses a hint and a formula to generate the password.
 
 The hint is a series of N positive numbers. Some of these numbers are purposely left blank, and these are denoted by -1
