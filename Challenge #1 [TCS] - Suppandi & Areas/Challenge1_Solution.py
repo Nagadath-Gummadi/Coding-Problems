@@ -9,6 +9,4 @@ for x in range(n):
         print(int(0.5*(int(input()))*(int(input()))))
     else:
          print(0)
-        
-
 
